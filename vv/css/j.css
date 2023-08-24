@@ -1,0 +1,113 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../pics/anime-4k-cool-for-desktop-wallpaper-preview.jpg);
+   
+     
+}
+.form-box{
+    
+    max-width: 450px;
+    position: absolute;
+    bottom: 10%;
+    top: 30%;
+    left: 70%;
+    background: #424242;
+    padding: 50px 30px 70px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #000000;
+    position: relative;
+    margin-right: 5px;
+    
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #d4c411;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.input-field{
+    background: #cecece;
+    margin: 15px 0;
+    border-radius: 0px;
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 13px 10px;
+}
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    text-decoration:none ;
+    color: #d4c411;
+}
+.btn-field{
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #d4c411;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+   
+    
+}
+.btn-field button.disable{
+    background-color: #cecece;
+    color: #555;
+}
+
+
+.btn-field a {
+    
+    flex-basis: 48%;
+    background: #d4c411;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
